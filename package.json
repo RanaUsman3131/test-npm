@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@rana_usman/usmantest",
+  "name": "usmantestromans",
   "author": "Usman",
   "module": "dist/mylib.esm.js",
   "size-limit": [
