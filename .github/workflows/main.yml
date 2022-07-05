@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node }}
-          registry-url: https://registry.npmjs.org/
+          registry-url: https://registry.npmjs.org
 
       - name: Intstall dep
         run: npm install
@@ -29,7 +29,6 @@ jobs:
       - name: test
         run: echo ${{secrets.NPM_TOKEN}}
       - name: Publish
-
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
