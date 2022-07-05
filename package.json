@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "mylib",
+  "name": "usmantest",
   "author": "Usman",
   "module": "dist/mylib.esm.js",
   "size-limit": [
